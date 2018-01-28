@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8F53A4201D8FA5001BB192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F53A3201D8FA5001BB192 /* AppDelegate.swift */; };
+		FE8F53A6201D8FA5001BB192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F53A5201D8FA5001BB192 /* ViewController.swift */; };
+		FE8F53A9201D8FA5001BB192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8F53A7201D8FA5001BB192 /* Main.storyboard */; };
+		FE8F53AB201D8FA5001BB192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8F53AA201D8FA5001BB192 /* Assets.xcassets */; };
+		FE8F53AE201D8FA5001BB192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8F53AC201D8FA5001BB192 /* LaunchScreen.storyboard */; };
+		FE8F53B9201D8FA6001BB192 /* Brett_s_Flashlight_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F53B8201D8FA6001BB192 /* Brett_s_Flashlight_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8F53B5201D8FA6001BB192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8F5398201D8FA5001BB192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8F539F201D8FA5001BB192;
+			remoteInfo = "Brett's Flashlight App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE8F53A0201D8FA5001BB192 /* Brett's Flashlight App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brett's Flashlight App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8F53A3201D8FA5001BB192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE8F53A5201D8FA5001BB192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE8F53A8201D8FA5001BB192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE8F53AA201D8FA5001BB192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8F53AD201D8FA5001BB192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE8F53AF201D8FA6001BB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8F53B4201D8FA6001BB192 /* Brett's Flashlight AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brett's Flashlight AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8F53B8201D8FA6001BB192 /* Brett_s_Flashlight_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brett_s_Flashlight_AppTests.swift; sourceTree = "<group>"; };
+		FE8F53BA201D8FA6001BB192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8F539D201D8FA5001BB192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8F53B1201D8FA6001BB192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8F5397201D8FA5001BB192 = {
+			isa = PBXGroup;
+			children = (
+				FE8F53A2201D8FA5001BB192 /* Brett's Flashlight App */,
+				FE8F53B7201D8FA6001BB192 /* Brett's Flashlight AppTests */,
+				FE8F53A1201D8FA5001BB192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8F53A1201D8FA5001BB192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F53A0201D8FA5001BB192 /* Brett's Flashlight App.app */,
+				FE8F53B4201D8FA6001BB192 /* Brett's Flashlight AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8F53A2201D8FA5001BB192 /* Brett's Flashlight App */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F53A3201D8FA5001BB192 /* AppDelegate.swift */,
+				FE8F53A5201D8FA5001BB192 /* ViewController.swift */,
+				FE8F53A7201D8FA5001BB192 /* Main.storyboard */,
+				FE8F53AA201D8FA5001BB192 /* Assets.xcassets */,
+				FE8F53AC201D8FA5001BB192 /* LaunchScreen.storyboard */,
+				FE8F53AF201D8FA6001BB192 /* Info.plist */,
+			);
+			path = "Brett's Flashlight App";
+			sourceTree = "<group>";
+		};
+		FE8F53B7201D8FA6001BB192 /* Brett's Flashlight AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F53B8201D8FA6001BB192 /* Brett_s_Flashlight_AppTests.swift */,
+				FE8F53BA201D8FA6001BB192 /* Info.plist */,
+			);
+			path = "Brett's Flashlight AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8F539F201D8FA5001BB192 /* Brett's Flashlight App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8F53BD201D8FA6001BB192 /* Build configuration list for PBXNativeTarget "Brett's Flashlight App" */;
+			buildPhases = (
+				FE8F539C201D8FA5001BB192 /* Sources */,
+				FE8F539D201D8FA5001BB192 /* Frameworks */,
+				FE8F539E201D8FA5001BB192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brett's Flashlight App";
+			productName = "Brett's Flashlight App";
+			productReference = FE8F53A0201D8FA5001BB192 /* Brett's Flashlight App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8F53B3201D8FA6001BB192 /* Brett's Flashlight AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8F53C0201D8FA6001BB192 /* Build configuration list for PBXNativeTarget "Brett's Flashlight AppTests" */;
+			buildPhases = (
+				FE8F53B0201D8FA6001BB192 /* Sources */,
+				FE8F53B1201D8FA6001BB192 /* Frameworks */,
+				FE8F53B2201D8FA6001BB192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8F53B6201D8FA6001BB192 /* PBXTargetDependency */,
+			);
+			name = "Brett's Flashlight AppTests";
+			productName = "Brett's Flashlight AppTests";
+			productReference = FE8F53B4201D8FA6001BB192 /* Brett's Flashlight AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8F5398201D8FA5001BB192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brett Bertola";
+				TargetAttributes = {
+					FE8F539F201D8FA5001BB192 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FE8F53B3201D8FA6001BB192 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE8F539F201D8FA5001BB192;
+					};
+				};
+			};
+			buildConfigurationList = FE8F539B201D8FA5001BB192 /* Build configuration list for PBXProject "Brett's Flashlight App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8F5397201D8FA5001BB192;
+			productRefGroup = FE8F53A1201D8FA5001BB192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8F539F201D8FA5001BB192 /* Brett's Flashlight App */,
+				FE8F53B3201D8FA6001BB192 /* Brett's Flashlight AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8F539E201D8FA5001BB192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F53AE201D8FA5001BB192 /* LaunchScreen.storyboard in Resources */,
+				FE8F53AB201D8FA5001BB192 /* Assets.xcassets in Resources */,
+				FE8F53A9201D8FA5001BB192 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8F53B2201D8FA6001BB192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8F539C201D8FA5001BB192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F53A6201D8FA5001BB192 /* ViewController.swift in Sources */,
+				FE8F53A4201D8FA5001BB192 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8F53B0201D8FA6001BB192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F53B9201D8FA6001BB192 /* Brett_s_Flashlight_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8F53B6201D8FA6001BB192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8F539F201D8FA5001BB192 /* Brett's Flashlight App */;
+			targetProxy = FE8F53B5201D8FA6001BB192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8F53A7201D8FA5001BB192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8F53A8201D8FA5001BB192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE8F53AC201D8FA5001BB192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8F53AD201D8FA5001BB192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8F53BB201D8FA6001BB192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE8F53BC201D8FA6001BB192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8F53BE201D8FA6001BB192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brett's Flashlight App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Brett-s-Flashlight-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE8F53BF201D8FA6001BB192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brett's Flashlight App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Brett-s-Flashlight-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE8F53C1201D8FA6001BB192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brett's Flashlight AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Brett-s-Flashlight-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brett's Flashlight App.app/Brett's Flashlight App";
+			};
+			name = Debug;
+		};
+		FE8F53C2201D8FA6001BB192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Brett's Flashlight AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Brett-s-Flashlight-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brett's Flashlight App.app/Brett's Flashlight App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8F539B201D8FA5001BB192 /* Build configuration list for PBXProject "Brett's Flashlight App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8F53BB201D8FA6001BB192 /* Debug */,
+				FE8F53BC201D8FA6001BB192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8F53BD201D8FA6001BB192 /* Build configuration list for PBXNativeTarget "Brett's Flashlight App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8F53BE201D8FA6001BB192 /* Debug */,
+				FE8F53BF201D8FA6001BB192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8F53C0201D8FA6001BB192 /* Build configuration list for PBXNativeTarget "Brett's Flashlight AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8F53C1201D8FA6001BB192 /* Debug */,
+				FE8F53C2201D8FA6001BB192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8F5398201D8FA5001BB192 /* Project object */;
+}
